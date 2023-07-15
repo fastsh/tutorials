@@ -1,0 +1,11 @@
+# Hello Help
+
+# Say "Hello"
+goal hello:
+    # Say "Hello World"
+    goal world:
+         "Hello world !"
+    # Say "Hello" to a user
+    goal user:
+         "Hello " + name + " ! "
+

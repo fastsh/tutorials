@@ -1,0 +1,12 @@
+users = [ User(name = "Bob"), User(name = "Lucifer") ]
+
+structure User:
+    name = ""
+
+function say_hello(user):
+    "Hello " + user.name + " !"
+
+for user in users:
+    if user.name == "Lucifer":
+        continue
+    say_hello(user)

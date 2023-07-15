@@ -1,0 +1,6 @@
+# Here you are on your host’s shell
+"Hello … from " + sh: "uname" + " !"
+
+# Here you will go on an alpine ash
+with_shell("alpine:latest:/bin/ash", {})
+"Hello … from " + sh: "uname" + " !"

@@ -1,0 +1,5 @@
+goal hello:
+    goal world:
+         "Hello world !"
+    goal user:
+         "Hello " + name + " ! "
