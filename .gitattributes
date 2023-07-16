@@ -1,0 +1,2 @@
+Fastfile linguist-language=Fast
+*.ff linguist-language=Fast
