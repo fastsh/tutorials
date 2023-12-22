@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "FastAPI Service"
+version = "0.1.0"
+description = "A FastAPI service managing users as a bootstrap"
+authors = ["pguillebert <pguillebert@obornes.fr>", "yelhoussaini <yelhoussaini@obornes.fr>"]
+homepage = "https://github.com/Obornes/py-service"
+repository = "https://github.com/Obornes/py-service.git"
+documentation = "https://github.com/Obornes/py-service/"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.22.0"
+fastapi = "^0.100.0"
+sqlalchemy = "^2.0.21"
+pydantic = {version = "^1.10.9", extras = ["email"]}
+psycopg2-binary = "^2.9.7"
+python-decouple = "^3.6"
+pytest = "^6.0.0"
+pytest-cov = "^3.0.0"
+httpx = "0.25.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
